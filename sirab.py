@@ -1,4 +1,4 @@
-# Task 1 
+# Task 1
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
@@ -21,7 +21,7 @@ else:
     print("Zero")
 
 
-#Task 3
+# Task 3
 n = int(input("Enter an integer: "))
 
 if n % 2 == 0:
@@ -30,7 +30,7 @@ else:
     print("Odd")
 
 
-#Task 4 
+# Task 4
 score = int(input("Enter score: "))
 
 if score < 0:
@@ -51,7 +51,7 @@ else:
     print("Grade: F")
 
 
-#Task 5 
+# Task 5
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 c = float(input("Enter third number: "))
@@ -165,7 +165,7 @@ if a > b:
 print(a, b, c)
 
 
-#Task 10 
+# Task 10
 balance = 1000
 amount = float(input("Enter withdrawal amount: "))
 
@@ -178,7 +178,7 @@ else:
     print("Remaining balance:", balance, "AZN")
 
 
-# Task 11 
+# Task 11
 usage = float(input("Enter usage (kWh): "))
 
 if usage < 0:
@@ -221,7 +221,7 @@ else:
     print(f"Total fare: {total:.2f} AZN")
 
 
-#  Task 13
+# Task 13
 age = int(input("Enter age: "))
 salary = int(input("Enter monthly salary (AZN): "))
 loan = int(input("Enter requested loan amount (AZN): "))
@@ -247,7 +247,7 @@ else:
         print("Reason: all checks passed")
 
 
-#Task 14
+# Task 14
 a = float(input("Enter side a: "))
 b = float(input("Enter side b: "))
 c = float(input("Enter side c: "))
@@ -281,7 +281,7 @@ else:
         print("Triangle cannot be created")
 
 
-#Task 15 
+# Task 15
 exam = int(input("Enter exam score (0-700): "))
 school = int(input("Enter school score (0-100): "))
 age = int(input("Enter age: "))
@@ -327,7 +327,7 @@ else:
     print(result)
 
 
-#Task 17
+# Task 17
 total = float(input("Enter order total (AZN): "))
 member = input("Are you a member? (yes/no): ")
 
@@ -404,7 +404,7 @@ else:
     print(order_type)
 
 
-# Task 20 
+# Task 20
 student_id = input("Enter student ID: ")
 
 if len(student_id) == 0:
@@ -433,7 +433,7 @@ else:
     print("Incorrect PIN")
 
 
-#Task 22
+# Task 22
 phone = input("Enter phone number (0XXXXXXXXX): ")
 
 if len(phone) == 0:
