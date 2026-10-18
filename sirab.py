@@ -149,7 +149,6 @@ a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 c = int(input("Enter third number: "))
 
-# yerlerini deyisirik (t - muveqqeti deyisen)
 if a > b:
     t = a
     a = b
